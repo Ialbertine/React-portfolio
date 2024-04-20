@@ -4,10 +4,13 @@ import { BiSolidUser } from "react-icons/bi";
 import { BsBagHeartFill } from "react-icons/bs";
 import About from "./About";
 import Resume from "./Resume";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <section className="bg-[#2d2d2d] text-white min-h-[100vh]">
+    <section className="bg-gray-900 text-white min-h-[100vh]">
       <div
         className="bg-no-repeat bg-cover h-[100vh] md:h-[100vh] w-full bg bg-center text-black"
         style={{ backgroundImage: "url('img/photo2.jpg')" }}
@@ -44,11 +47,11 @@ const Home = () => {
               </p>
             </div>
             <div className="flex gap-[3rem] pt-5 mb-[3rem] md:mb-[2rem]">
-              <button className="text-white py-4 px-6 rounded-full bg-gray-800 flex items-center gap-2 md:flex md:flex-row lg:py-[1rem] lg:px-[1.5rem]">
+              <button className="text-white py-4 px-6 rounded-full bg-purple-600 flex items-center gap-2 md:flex md:flex-row lg:py-[1rem] lg:px-[1.5rem]">
                 <BiSolidUser />
                 MORE ABOUT ME
               </button>
-              <button className="text-white py-4 px-6 rounded-full bg-gray-800 flex  items-center gap-2 md:flex md:flex-row lg:py[1rem] lg:px-[1.5rem]">
+              <button className="text-white py-4 px-6 rounded-full bg-purple-600 flex  items-center gap-2 md:flex md:flex-row lg:py[1rem] lg:px-[1.5rem]">
                 <BsBagHeartFill />
                 PORTFOLIO
               </button>
@@ -63,6 +66,13 @@ const Home = () => {
         <Resume />
       </div>
       <div>
+        <Portfolio />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </section>
   );

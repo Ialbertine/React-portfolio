@@ -18,7 +18,7 @@ const About = () => {
         <img
           src="img/Tina1.jpg"
           alt="tina"
-          className="w-[23rem] h-[25rem] object-cover "
+          className="w-[23rem] h-[25rem] object-cover"
         />
         <div className="flex flex-col lg:pl-[1.5rem]">
           <p className="w-[30rem] text-center mt-[1rem] sm:flex sm:items-center sm:text-justify">
@@ -31,7 +31,7 @@ const About = () => {
           <div class="flex flex-cols-2 items-center justify-center gap-x-[10rem] mt-4 lg:mt-4">
             <div class="text-left">
               <span class="block">
-                <span  className="text-xl">First Name</span>
+                <span className="text-xl">First Name</span>
                 <br />
                 Albertine
               </span>
