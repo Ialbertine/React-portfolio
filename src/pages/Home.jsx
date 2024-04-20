@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <section className="bg-gray-900 text-white min-h-[100vh]">
       <div
-        className="bg-no-repeat bg-cover h-[100vh] md:h-[100vh] w-full bg bg-center text-black"
-        style={{ backgroundImage: "url('img/photo2.jpg')" }}
+        className="bg-no-repeat bg-cover h-[100vh] md:h-[100vh] w-full bg bg-center opacity-90 text-white"
+        style={{ backgroundImage: "url('img/photo5.jpg')", opacity: 0.9 }}
       >
         <div>
           <NavBar />

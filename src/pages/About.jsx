@@ -3,7 +3,7 @@ import { BiDownload } from "react-icons/bi";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center minh-[100vh] w-full text-white">
+    <div className="flex flex-col items-center justify-center min-h-[100vh] w-full bg-gray-900 text-white">
       <h1 className="text-5xl lg:pt-[5rem] pt-[4rem] font-extrabold">
         ABOUT <span className="text-[#8A2BE2]">ME</span>
       </h1>

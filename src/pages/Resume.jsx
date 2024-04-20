@@ -20,7 +20,7 @@ const skillsData = [
 
 const Resume = () => {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center w-full bg-gray-900 text-white">
       <h1 className="text-5xl pt-[2rem] lg:pt-[4rem] font-extrabold">
         RESU<spna className="text-[#8A2BE2]">ME</spna>
       </h1>

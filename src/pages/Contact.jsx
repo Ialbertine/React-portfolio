@@ -12,7 +12,7 @@ import { BsFillSendFill } from "react-icons/bs";
 const Contact = () => {
     
   return (
-    <div className="flex flex-col items-center justify-center w-full min-h-[100vh]">
+    <div className="flex flex-col items-center justify-center w-full bg-gray-900 min-h-[100vh]">
       <h1 className="text-5xl font-extrabold">
         GET <span className="text-[#8A2BE2]">IN TOUCH</span>
       </h1>
@@ -80,7 +80,6 @@ const Contact = () => {
               shortly.
             </p>
             <div className="mt-3 lg:mt-5">
-            
               <form className="flex flex-col gap-4 pb-5">
                 <div className="flex flex-col gap-4 lg:flex-row">
                   <div className="flex items-center bg-[#1f1e1e] py-3 px-5 rounded-full lg:w-[50%] hover:border-[1px] hover:border-[#949494]">
@@ -89,7 +88,6 @@ const Contact = () => {
                       type="text"
                       placeholder="YOUR NAME"
                       className=" w-[50%] px-2 bg-[#1f1e1e] border-none"
-                      
                     />
                   </div>
                   <div className="flex items-center bg-[#1f1e1e] py-3 px-5 rounded-full lg:w-[50%] hover:border-[1px] hover:border-[#949494]">
@@ -99,7 +97,6 @@ const Contact = () => {
                       placeholder="YOUR EMAIL"
                       className="w-[50%] px-2 bg-[#1f1e1e]"
                     />
-
                   </div>
                 </div>
                 <div className="flex items-center bg-[#1f1e1e] py-3 px-5 rounded-3xl lg:mt-4 hover:border-[1px] hover:border-[#949494]">
